@@ -1,9 +1,16 @@
 # 🌌 i3wm dotfiles 🌌
+
+Dependencies:
+- i3gaps-rounded-git
+- polybar
+- rofi
+- FontAwesome4, FontAwesome5, Nerd Fonts
+
 This dotfiles contain:
 
   - Themes
   - Icons
-  - Configs (i3, polybar, rofi, terminal paddings).
+  - Configs (i3, polybar, rofi, terminal paddings, neofetc).
   
  # Previews
  
