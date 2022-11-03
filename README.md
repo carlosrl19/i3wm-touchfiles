@@ -4,6 +4,7 @@ Dependencies:
 - i3gaps-rounded-git
 - polybar
 - rofi
+- onboard (virtual keyboard)
 - FontAwesome4, FontAwesome5, Nerd Fonts
 
 This dotfiles contain:
