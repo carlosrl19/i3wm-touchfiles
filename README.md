@@ -18,7 +18,6 @@ This dotfiles contain:
  # Previews
  
 ![image](https://user-images.githubusercontent.com/85375012/199650706-a30d0e1a-8415-4ad4-b5c8-86d311e036da.png)
-![image](https://user-images.githubusercontent.com/85375012/199650749-b8090235-d762-49d3-9214-6510924eaacd.png)
-
+![image](https://user-images.githubusercontent.com/85375012/199655431-a7c95030-0e2c-4fab-8e97-e9376cce2402.png)
 # Touch menu in polybar 
 ![image](https://user-images.githubusercontent.com/85375012/199650807-0c1a8033-cbde-4a88-8ab7-1b65eb31fc58.png)
