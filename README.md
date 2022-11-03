@@ -6,6 +6,8 @@ Dependencies:
 - rofi
 - onboard (virtual keyboard)
 - FontAwesome4, FontAwesome5, Nerd Fonts
+- xfce4-screenshooter, xfce4-power-manager
+- dunst
 
 This dotfiles contain:
 
