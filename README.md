@@ -1,7 +1,7 @@
 # 🌌 i3wm dotfiles 🌌
 
 Dependencies:
-- i3gaps-rounded-git
+- i3-gaps-rounded-git (https://github.com/jbenden/i3-gaps-rounded)
 - polybar
 - rofi
 - onboard (virtual keyboard)
