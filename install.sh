@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Dependencias necesarias
+sudo pacman -S make pkg-config yay picom feh dunst git rofi lxappearance
+
 # Crear las carpetas si no existen y mostrar mensaje si se crean
 if [ ! -d "/home/$USER/.themes" ] || [ ! -d "/home/$USER/.icons" ] || [ ! -d "/home/$USER/.config/i3" ] || [ ! -d "/home/$USER/.config/polybar" ] || [ ! -d "/home/$USER/.config/rofi" ] || [ ! -d "/home/$USER/.config/dunst" ] || [ ! -d "/home/$USER/.config/neofetch" ]; then
 smkdir -p /home/$USER/.themes /home/$USER/.icons /home/$USER/.config/i3 /home/$USER/.config/polybar /home/$USER/.config/rofi /home/$USER/.config/dunst /home/$USER/.config/neofetch
@@ -19,5 +22,12 @@ cp config/rofi/* /home/$USER/.config/rofi/
 cp config/dunst/* /home/$USER/.config/dunst/
 cp config/config.conf /home/$USER/.config/neofetch/
 cp wallpaper.jpg /home/$USER/Imágenes/
+
+# Configuración
+bash /home/$USER/.config/polybar/launch.sh --forest
+^C
+yay -S i3-gaps-rounded-git # instalando i3gaps rounded
+yay -S ttf-awesome-4
+yay -S ttf-awesome-5
 
 echo "Todo se ha copiado exitosamente"
