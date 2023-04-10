@@ -5,7 +5,7 @@ Dependencies:
 - polybar
 - rofi
 - onboard (virtual keyboard)
-- FontAwesome4, FontAwesome5, Nerd Fonts
+- FontAwesome4 (ttf-font-awesome-4), FontAwesome5 (ttf-font-awesomen-5), Iosevka Nerd Fonts (https://www.nerdfonts.com/font-downloads)
 - xfce4-screenshooter, xfce4-power-manager
 - dunst
 
