@@ -5,7 +5,7 @@ sudo pacman -S make pkg-config yay picom feh dunst git rofi lxappearance brightn
 
 # Crear las carpetas si no existen y mostrar mensaje si se crean
 if [ ! -d "/home/$USER/.themes" ] || [ ! -d "/home/$USER/.icons" ] || [ ! -d "/home/$USER/.config/i3" ] || [ ! -d "/home/$USER/.config/polybar" ] || [ ! -d "/home/$USER/.config/rofi" ] || [ ! -d "/home/$USER/.config/dunst" ] || [ ! -d "/home/$USER/.config/neofetch" ] || [ ! -d "/home/$USER/.config/picom" ]; then
-smkdir -p /home/$USER/.themes /home/$USER/.icons /home/$USER/.config/i3 /home/$USER/.config/polybar /home/$USER/.config/rofi /home/$USER/.config/dunst /home/$USER/.config/neofetch /home/$USER/.config/picom
+mkdir -p /home/$USER/.themes /home/$USER/.icons /home/$USER/.config/i3 /home/$USER/.config/polybar /home/$USER/.config/rofi /home/$USER/.config/dunst /home/$USER/.config/neofetch /home/$USER/.config/picom
   echo "Carpetas creadas exitosamente, procediendo a copiar los archivos..."
 fi
 
