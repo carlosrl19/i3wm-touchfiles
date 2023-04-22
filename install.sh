@@ -21,7 +21,7 @@ sudo cp config/picom/* /home/$USER/.config/picom/picom.conf
 cp config/rofi/* /home/$USER/.config/rofi/
 cp config/dunst/* /home/$USER/.config/dunst/
 cp config/config.conf /home/$USER/.config/neofetch/
-cp wallpaper.jpg /home/$USER/Imágenes/
+cp wallpaper.png /home/$USER/Imágenes/
 
 # Configuración
 bash /home/$USER/.config/polybar/launch.sh --forest
