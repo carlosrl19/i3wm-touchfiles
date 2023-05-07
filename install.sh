@@ -16,7 +16,7 @@ sudo chmod +x /etc/xdg/picom.conf
 cp -r themes/* /home/$USER/.themes/
 cp -r icons/* /home/$USER/.icons/
 sudo cp rofi\ themes/* /usr/share/rofi/themes/
-cp config/i3/* /home/$USER/.config/i3/Ad
+cp config/i3/* /home/$USER/.config/i3/config
 cp -r config/polybar/* /home/$USER/.config/polybar/
 sudo cp config/picom/* /home/$USER/.config/picom/picom.conf
 cp config/rofi/* /home/$USER/.config/rofi/
