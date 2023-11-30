@@ -12,7 +12,7 @@ There's a script to do an auto-installation of all that configs needs. It's call
 - polybar
 - rofi
 - onboard (virtual keyboard)
-- Fonts
+- Fonts (after install it run fc-cache -f -v)
   * No-Arch-based distro: https://www.nerdfonts.com/font-downloads
   * Manjaro: yay -S ttf-font-awesome-4 ttf-font-awesome-5 ttf-iosevka-nerd
 - xfce4-screenshooter, xfce4-power-manager
